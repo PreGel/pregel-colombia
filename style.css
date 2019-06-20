@@ -1,0 +1,114 @@
+
+/*
+Theme Name: PreGel Colombia
+Description: Child theme for Colombia - Parent PreGel Master
+Author: PreGel America
+Template: pregel
+*/
+
+/* custom css */
+
+ #top-bar-menu a {
+ 	font-size: 1.2rem;
+ }
+
+/*.top-bar {
+	padding: 3rem;
+}
+.top-bar.sticky.is-stuck {
+	padding: 0.5rem;
+}*/
+
+
+@media (max-width: 1024px) {
+	.top-bar {
+		padding: 0.5rem;
+	}
+}
+
+#product-bar .link {
+    position: relative;
+    height: 170px;
+}
+
+.page-id-131 #pg-about-banner {
+	background-image: url('https://pregel3.com/wp-content/themes/pregel-colombia/assets/images/ABOUT_main_HeaderISO.png');
+}
+.page-id-1701 #pg-about-banner {
+	background-image: url('https://pregel3.com/wp-content/themes/pregel-colombia/assets/images/ABOUT_main_HeaderISO.png');
+}
+.page-id-1740 #pg-about-banner {
+	background-image: url('https://pregel3.com/wp-content/themes/pregel-colombia/assets/images/ABOUT_main_HeaderISO.png');
+}
+.page-id-1746 #pg-about-banner {
+	background-image: url('https://pregel3.com/wp-content/themes/pregel-colombia/assets/images/ABOUTUS_ProductManufacturing_Header_iso.png');
+}
+.page-id-1749 #pg-about-banner {
+    background-image: url(https://pregel3.com/wp-content/themes/pregel-colombia/assets/images/ABOUTUS_ProductManufacturing_Header_iso.png);
+}
+.page-id-1532 #pg-about-banner {
+	background-image: url('https://pregel3.com/wp-content/themes/pregel-colombia/assets/images/ABOUTUS_AroundWorld_HeaderISO.png');
+}
+.page-id-1532 #pg-about-section-one {
+    min-height: 125px;
+}
+.page-id-1534 #pg-about-banner {
+	background-image: url('https://pregel3.com/wp-content/themes/pregel-colombia/assets/images/SERVICES_CUSTOMERSUPPORT_HeaderISO.png');
+}
+.page-id-1549 #pg-about-banner {
+	background-image: url('https://pregel3.com/wp-content/themes/pregel-colombia/assets/images/TRAINING_HeaderISO.png');
+}
+.page-id-1549 #pg-about-section-two {
+	display: none;
+}
+.page-id-1551 #pg-about-banner {
+	background-image: url('https://pregel3.com/wp-content/themes/pregel-colombia/assets/images/ABOUT_main_HeaderISO.png');
+}
+#pg-testimonial-container {
+	width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    border: #6ba0d3 solid 2px;	
+}
+.pg-circle-image  {
+	display: inline;
+	margin: 0 auto;
+	height: auto;
+	width: auto;					
+}
+#pg-news-cards .news-card-img-container {
+    min-height: 25vh;
+    max-height: 25vh;
+}
+#pg-news-cards .news-card-img {
+    max-height: 25vh;
+    overflow: hidden;
+}
+#bottom-footer #footer-contact-info p {
+    border-right: none;
+    margin-bottom: 0.5rem;
+}
+@media (max-width: 1200px) {
+	#top-bar-menu a {
+		padding: 0.8rem 1rem 1rem;
+	}
+	#product-bar .link {
+		height: 150px;
+	}
+}
+@media (max-width: 1024px) {
+	#product-bar .pastry h3 {
+		margin-top: 0;
+	}
+}
+@media (max-width: 525px) {
+	#product-bar .link {
+		height: 110px;
+	}
+}
